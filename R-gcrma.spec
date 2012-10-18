@@ -42,6 +42,7 @@ rm -rf $RPM_BUILD_ROOT
 %doc %{_libdir}/R/library/%{packname}/DESCRIPTION
 %doc %{_libdir}/R/library/%{packname}/doc
 %doc %{_libdir}/R/library/%{packname}/html
+%dir %{_libdir}/R/library/%{packname}
 %{_libdir}/R/library/%{packname}/Meta
 %{_libdir}/R/library/%{packname}/NAMESPACE
 %{_libdir}/R/library/%{packname}/NEWS
