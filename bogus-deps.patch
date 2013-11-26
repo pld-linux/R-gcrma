@@ -3,7 +3,7 @@
 @@ -11,7 +11,7 @@
  Depends: R (>= 2.6.0), affy (>= 1.23.2), graphics, methods, stats,
          utils
- Imports: Biobase, affy (>= 1.23.2), affyio (>= 1.13.3), IRanges,
+ Imports: Biobase, affy (>= 1.23.2), affyio (>= 1.13.3), XVector,
 -        Biostrings (>= 2.11.32), splines, BiocInstaller
 +        Biostrings (>= 2.11.32), splines
  Suggests: affydata, tools, splines, hgu95av2cdf, hgu95av2probe
@@ -17,6 +17,6 @@
  
 -importFrom(BiocInstaller, biocinstallRepos)
 -
- importFrom(IRanges, subseq, "subseq<-")
+ importFrom(XVector, subseq, "subseq<-")
  importClassesFrom(Biostrings, "DNAStringSet")
  importFrom(Biostrings, DNAStringSet, complement)
