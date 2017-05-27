@@ -3,7 +3,7 @@
 Summary:	Background Adjustment Using Sequence Information
 Name:		R-%{packname}
 Version:	2.34.0
-Release:	2
+Release:	3
 License:	LGPL
 Group:		Applications/Engineering
 Source0:	http://www.bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
