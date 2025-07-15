@@ -32,7 +32,7 @@ Background adjustment using sequence information.
 
 %prep
 %setup -q -c -n %{packname}
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 
